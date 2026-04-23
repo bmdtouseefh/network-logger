@@ -17,7 +17,6 @@ Real-time network monitoring dashboard that displays active connections, network
 
 - Python 3.8+
 - psutil
-- colorama
 - dnspython
 
 ## Installation
@@ -29,7 +28,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python network-mon.py
+python network_logger.py
 ```
 
 Press `Ctrl+C` to exit.
@@ -39,14 +38,14 @@ Press `Ctrl+C` to exit.
 This tool requires elevated privileges to access full network connection information. On Linux, you may need to run with `sudo`:
 
 ```bash
-sudo python network-mon.py
+sudo python network_logger.py
 ```
 
 ## Project Structure
 
 ```
 network-monitor/
-├── network-mon.py      # Main application
+├── network_logger.py      # Main application
 ├── requirements.txt    # Python dependencies
 └── README.md           # This file
 ```
